@@ -4414,17 +4414,19 @@
      color: #fff;
    }
    
-   .logo-component {
-     display: -webkit-box;
-     display: -webkit-flex;
-     display: -ms-flexbox;
-     display: flex;
+   .logo-components {
+     width:calc(100vw);
+     margin-left: calc(-50vw + 50%);
    }
    
-   .logo-list {
-     display: -ms-grid;
-     display: grid;
-     margin-right: 2rem;
+   .logo-lists {
+     /* display: -ms-grid;
+     display: grid; */
+     display: flex;
+      width:max-content;
+     
+     overflow: hidden;
+     /* margin-right: 2rem;
      -webkit-box-pack: end;
      -webkit-justify-content: flex-end;
      -ms-flex-pack: end;
@@ -4444,7 +4446,7 @@
      grid-template-columns: 12.5rem 12.5rem 12.5rem 12.5rem 12.5rem 12.5rem 12.5rem 12.5rem;
      -ms-grid-rows: auto;
      grid-template-rows: auto;
-     white-space: nowrap;
+     white-space: nowrap; */
    }
    
    .logo {
@@ -4456,6 +4458,7 @@
      display: -webkit-flex;
      display: -ms-flexbox;
      display: flex;
+     width:15rem;
      -webkit-box-pack: center;
      -webkit-justify-content: center;
      -ms-flex-pack: center;
