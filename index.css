@@ -4358,6 +4358,11 @@
      grid-template-columns: 1fr 1fr;
      -ms-grid-rows: auto;
      grid-template-rows: auto;
+     
+   }
+
+   .header-content{
+    z-index:100;
    }
    
    .header-image {
@@ -4372,6 +4377,7 @@
      position: relative;
      width: 100%;
      height: 640px;
+     z-index:100;
    }
    
    .section-home-header {
@@ -4799,7 +4805,7 @@
      background-color: #00353b;
    }
    
-   .testimonial-content {
+   .testimonial-contents {
      display: -webkit-box;
      display: -webkit-flex;
      display: -ms-flexbox;
@@ -4872,7 +4878,7 @@
      object-fit: cover;
    }
    
-   .testimonial-component {
+   .testimonial-components {
      display: -webkit-box;
      display: -webkit-flex;
      display: -ms-flexbox;
@@ -4881,11 +4887,14 @@
      -webkit-align-items: stretch;
      -ms-flex-align: stretch;
      align-items: stretch;
-     grid-auto-columns: 1fr;
+     /* grid-auto-columns: 1fr;
      -ms-grid-columns: 1fr 1fr 1fr;
      grid-template-columns: 1fr 1fr 1fr;
      -ms-grid-rows: auto;
-     grid-template-rows: auto;
+     grid-template-rows: auto; */
+     width:calc(100vw);
+     margin-left: calc(-50vw + 50%);
+     
    }
    
    .testimonial-client-info {
@@ -7928,7 +7937,7 @@
        grid-template-columns: 1fr 1fr;
      }
    
-     .testimonial-component {
+     .testimonial-components {
        -ms-grid-columns: 1fr 1fr;
        grid-template-columns: 1fr 1fr;
      }
@@ -8550,7 +8559,7 @@
        grid-row-gap: 3rem;
      }
    
-     .testimonial-content {
+     .testimonial-contents {
        padding: 1.5rem;
      }
    
@@ -8559,7 +8568,7 @@
        margin-bottom: 1rem;
      }
    
-     .testimonial-component {
+     .testimonial-components {
        -ms-grid-columns: 1fr;
        grid-template-columns: 1fr;
      }
@@ -9898,6 +9907,10 @@
        -ms-grid-row-span: 1;
        grid-row-end: 4;
      }
+   }
+   .w-webflow-badge{
+    display: None !important;
+    visibility: hidden !important;
    }
    @font-face {
      font-family: 'Dmsans';
