@@ -92,3 +92,17 @@ $(window).on('load', function(){
     });
 }
 
+var clicked = false;
+function changeClicked(){
+    $(".menu-icon").click(function(){
+        clicked = !click;
+    });
+}
+document.querySelector(".main-wrapper").addEventListener("touchmove", function(e){
+    if(clicked === true){
+        e.preventDefault();
+        $(".menu-icon").click();
+    }
+});
+
+
