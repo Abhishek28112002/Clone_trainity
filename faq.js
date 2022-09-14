@@ -438,5 +438,16 @@ function changeDisplayedQuestions(questionArr) {
     document.getElementsByClassName("questions")[i].children[1].innerText = `${
       questionArr[i] ? questionArr[i].answer : ""
     }`;
+    if (
+      document.getElementsByClassName("questions")[i].children[0].innerText ==
+      ""
+    ) {
+      document.getElementsByClassName("questions")[i].classList.add("hidden");
+    } else {
+      document
+        .getElementsByClassName("questions")
+        [i].classList.remove("hidden");
+    }
   }
 }
+
