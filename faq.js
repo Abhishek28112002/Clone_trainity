@@ -369,34 +369,26 @@ for (let i = 0; i < sectionArray.length; i++) {
 
 document
   .getElementsByClassName(`section-elem-${0}`)[0]
-  .classList.add("text-green-500", "underline", "underline-offset-[30px]");
+  .classList.add("active-section");
 
 function makeActive(className, sectionIndex) {
   if (
     document
       .getElementsByClassName(className)[0]
-      .classList.contains("text-green-500")
+      .classList.contains("active-section")
   ) {
     document
       .getElementsByClassName(className)[0]
-      .classList.remove(
-        "text-green-500",
-        "underline",
-        "underline-offset-[30px]"
-      );
+      .classList.remove("active-section");
   } else {
     for (let i = 0; i < sectionArray.length; i++) {
       document
         .getElementsByClassName(`section-elem-${i}`)[0]
-        .classList.remove(
-          "text-green-500",
-          "underline",
-          "underline-offset-[30px]"
-        );
+        .classList.remove("active-section");
     }
     document
       .getElementsByClassName(className)[0]
-      .classList.add("text-green-500", "underline", "underline-offset-[30px]");
+      .classList.add("active-section");
 
     ////// section wise if else condtn to display question in that perticular page
     if (

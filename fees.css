@@ -2460,6 +2460,51 @@
     display: None !important;
     visibility: hidden !important;
    }
+
+   .FAQ{
+    padding:10px 6px;
+    margin-bottom:6rem;
+   }
+
+   #sections{
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    white-space: nowrap;
+    margin:16px 0 0;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 10px;
+   }
+
+   #sections section{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    cursor: pointer;
+    width:250px;
+    display: inline-block;
+    text-align:center;
+    padding-right: 40px;
+  }
+
+  .questions{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e5e7eb;
+    cursor: pointer;
+  }
+
+  .answer{
+    margin-top:16px;
+  }
+
+  .hidden{
+    display: none;
+  }
+
+  .active-section{
+    color:#158e5e;
+  }
+  
    
    @media screen and (max-width: 767px) {
      .w-commerce-commercelayoutcontainer {
