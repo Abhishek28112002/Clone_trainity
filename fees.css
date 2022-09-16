@@ -8150,7 +8150,7 @@
      }
    
      .navbar-link.w--current {
-       color: #1f2937;
+       color: #158e5e;
      }
    
      .navbar-button-wrapper {
@@ -8163,6 +8163,7 @@
      .navbar-dropdown-list {
        position: relative;
        overflow: hidden;
+       opacity: 1 !important;
      }
    
      .navbar-dropdown-list.w--open {
