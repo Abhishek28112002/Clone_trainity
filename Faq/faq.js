@@ -207,71 +207,8 @@ let questionArray = [
   },
 ];
 
-const newQuestionArrayPP = [
-  {
-    question: "Enter new question1 for program and preq...",
-    answer: "Enter new answer1",
-  },
-  {
-    question: "Enter new question2 for program and preq...",
-    answer: "Enter new answer2",
-  },
-  {
-    question: "Enter new question3 for program and preq...",
-    answer: "Enter new answer3",
-  },
-  {
-    question: "Enter new question4 for program and preq...",
-    answer: "Enter new answer4",
-  },
-  {
-    question: "Enter new question5 for program and preq...",
-    answer: "Enter new answer5",
-  },
-  {
-    question: "Enter new question6 for program and preq...",
-    answer: "Enter new answer6",
-  },
-];
-// const newQuestionArraysdd = [
-//   { question: "Q. Once my application is accepted, when will the program start?",
-//   answer: "At the time of making the payment, you will have the option to choose your preferred batch start date."},
-// { question: "Q. My application has been accepted but I would like to start the program at a later date, can I?",
-// answer: "Yes, you can. Just choose a suitable later date batch while making the payment. If a suitable date is not available, please write to us at jos@internshala.com so that we can help you with it."},
-// { question: "Q. How will the courses in the specialization be taught? What will be the timing of the online classes?",
-// answer: "The specialization consists of 2 video-based courses that you would complete one after another. The videos are pre-recorded so you can watch them any time of the day as convenient to you. The courses also consist of exercises, quizzes, tests, and projects that you will undergo as you learn."},
-// { question: "Q. What is the duration of the specialization? How many hours a day do I need to spend on the program to complete it in the given duration?
-// answer: "You need to complete the full-stack development specialization training within 6 months from your chosen batch start date. If you spend ~2 hours every day, you should be able to complete the program comfortably in 6 months including all the projects, tests, vivas etc."},
-// { question: "Q. What if I am not able to complete the entire specialization in the given duration? Will I get an extension?",
-// answer: "If you are not able to complete the specialization in 3 months due to any unforeseen reasons, you will be able to get an extension of 2 weeks on paying Rs. 4999 or an extension of 1 month on paying Rs. 7999."},
-// ];
 
-const newQuestionArraypdds = [
-  {
-    question: "Enter new question1 for program delivery doubt....",
-    answer: "Enter new answer1",
-  },
-  {
-    question: "Enter new question2 for program delivery doubt....",
-    answer: "Enter new answer2",
-  },
-  {
-    question: "Enter new question3 for program delivery doubt....",
-    answer: "Enter new answer3",
-  },
-  {
-    question: "Enter new question4 for program delivery doubt....",
-    answer: "Enter new answer4",
-  },
-  {
-    question: "Enter new question5 for program delivery doubt....",
-    answer: "Enter new answer5",
-  },
-  {
-    question: "Enter new question6 for program delivery doubt....",
-    answer: "Enter new answer6",
-  },
-];
+
 
 let sectionArray = [
   { id: 1, title: "Eligibility & Application" },
