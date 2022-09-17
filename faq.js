@@ -5,16 +5,16 @@ const newQuestionArray = [
       question:
         "Q. I have no experience in the career field. Can I still apply?",
       answer:
-        "Absolutely! Our experiences are made for newbies in the field. All you do need to take part is an interest in the field and access to the internet!"+
+        "Absolutely! Our experiences are made for newbies in the field. All you do need to take part is an interest in the field and access to the internet!"+" "+
 
-        "We recommend checking each program guide to see what the exact program requirements are."+
+        "We recommend checking each program guide to see what the exact program requirements are."+" "+
         
         "We have a Free Trial facility that allows you to test out the program and complete 2 projects.",
     },
     {
       question: " Q. What’s the time commitment required each week?",
       answer:
-        "The time commitment is expected to be around 5 - 10 hrs per week (depending on which program you choose and your prior level of experience). The experience is virtual and mostly asynchronous (meaning you can work according to your schedule) so you can be flexible on how and when you choose to do the work."+
+        "The time commitment is expected to be around 5 - 10 hrs per week (depending on which program you choose and your prior level of experience). The experience is virtual and mostly asynchronous (meaning you can work according to your schedule) so you can be flexible on how and when you choose to do the work."+" "+
 
         "However, the deadlines are fixed and must be met to receive a certificate.",
     },
@@ -27,11 +27,11 @@ const newQuestionArray = [
     {
       question: "Q. How do I sign up for an experience?",
       answer:
-        "The first step is to create an account"+ 
+        "The first step is to create an account"+" "+ 
 
-       "Creating an account with us is completely free."+
+       "Creating an account with us is completely free."+" "+
         
-       "When you have an account, log in and select the experience you are interested in."+
+       "When you have an account, log in and select the experience you are interested in."+" "+
         
         "You will be required to pay a commitment bond in order to sign up for an experience, and if you are able to finish the experience by the assigned deadline, this bond will be refunded to you.",
     },
@@ -39,11 +39,11 @@ const newQuestionArray = [
       question:
         "Q. Can I put this on my CV/Resume/LinkedIn?",
       answer:
-        "Absolutely! After you complete an experience, you can add the experience to your CV, Resume, or LinkedIn."+
+        "Absolutely! After you complete an experience, you can add the experience to your CV, Resume, or LinkedIn."+" "+
 
-        "However, we kindly ask you to  <Strong>not</Strong> list yourself as an employee at Trainity or any of our Mentor companies."+
+        "However, we kindly ask you to  not list yourself as an employee at Trainity or any of our Mentor companies."+" "+
         
-        "For the moment, Trainity is not recognized as industrial work experience. We are in the process of getting these experiences approved and recognized and we will email you when they are."+
+        "For the moment, Trainity is not recognized as industrial work experience. We are in the process of getting these experiences approved and recognized and we will email you when they are."+" "+
         
         "For this reason, we recommend including the completion of the program in the 'Extracurricular Activities' or 'Projects' section of your resume in a similar format to below.",
     },
@@ -63,7 +63,7 @@ const newQuestionArray = [
       question:
         "Q. Will I receive a job at the end of the program?",
       answer:
-        "Trainity is primarily an education platform and does not guarantee anyone employment at the end of the program."+
+        "Trainity is primarily an education platform and does not guarantee anyone employment at the end of the program."+" "+
 
         "However, we do have a network of recruiters who do occasionally look at user work submissions and hire candidates with exceptional work. These recruiters operate according to their own employment needs and schedules outside of Trainity's influence and Trainity will act as a facilitator for these opportunities.",
     },
@@ -73,9 +73,9 @@ const newQuestionArray = [
       question:
         "Q. Are your programs free?",
       answer:
-        "They can be!"+
+        "They can be!"+" "+
 
-        "Trainity requires a **commitment bond** to be paid prior to Entering a course. This means that you pay a commitment bond equivalent to ₹7499, and if you attempt all tasks in the experience before the assigned deadline, you will get a full refund."+
+        "Trainity requires a **commitment bond** to be paid prior to Entering a course. This means that you pay a commitment bond equivalent to ₹7499, and if you attempt all tasks in the experience before the assigned deadline, you will get a full refund."+" "+
         
         "If you cannot afford the commitment bond, we do offer financial aid to users that meet certain criteria.",
     },
@@ -83,20 +83,20 @@ const newQuestionArray = [
       question:
         "Q. How much does the program cost?",
       answer:
-        "The program **can be free** if you finish the program."+
+        "The program **can be free** if you finish the program."+" "+
 
-        "Trainity requires a **commitment bond** to be paid prior to Entering a course. This means that you pay a commitment bond equivalent to ₹7499, and if you attempt all tasks in the experience before the assigned deadline, you will get a full refund."+
+        "Trainity requires a **commitment bond** to be paid prior to Entering a course. This means that you pay a commitment bond equivalent to ₹7499, and if you attempt all tasks in the experience before the assigned deadline, you will get a full refund."+" "+
         
-        "Depending on your financial institution or location, you may have the option to pay in your local currency, some of which may incur transaction fees or exchange rates. These are not claimed by Trainity and may not be included in your refund."+
+        "Depending on your financial institution or location, you may have the option to pay in your local currency, some of which may incur transaction fees or exchange rates. These are not claimed by Trainity and may not be included in your refund."+" "+
         
         "If you cannot afford the commitment bond, we do offer financial aid to users that meet certain criteria.",
     },
     {
       question: "Q.  What happens if I don't finish a program?",
       answer:
-        "If you are unable to complete the course by the scheduled deadline(s), we will forfeit your commitment bond, and you will not receive a certificate of completion."+
+        "If you are unable to complete the course by the scheduled deadline(s), we will forfeit your commitment bond, and you will not receive a certificate of completion."+" "+
 
-        "In exchange you will be given permanent access to the content, so that you can continue learning in your own time - so effectively it will be just like buying an online course."+
+        "In exchange you will be given permanent access to the content, so that you can continue learning in your own time - so effectively it will be just like buying an online course."+" "+
         
         "However, please note that support and submissions will be restricted after the program ends, and a certificate of completion will not be issued if you finish your work after the deadline.",
     },
@@ -110,11 +110,11 @@ const newQuestionArray = [
       question:
         "Q. Why use a commitment bond? Why not sell the course, or make it free?",
       answer:
-        "Good question!"+
+        "Good question!"+" "+
 
-        "Our biggest goal is to educate."+
+        "Our biggest goal is to educate."+" "+
         
-        "When we started, we tried selling our courses outright, as well as running them for free. In both cases, our completion rate was very low - our team has been in education for many years and this is a problem many online educators are having. People sign up for courses but lose interest the moment the work starts getting serious. We needed a way to motivate people to reach the end and the commitment bond was our solution. When we implemented this model, our completion rates shot up. Would you believe they are now 10 times higher than the average completion rate of other online education platforms? We are not trying to scam people by making it impossible to reach the end either. All you have to do is attempt the tasks - the course is not pass/fail. That means no blank submissions and no plagiarism. Incorrect answers and attempts are fine! We understand that's part of the process!"+
+        "When we started, we tried selling our courses outright, as well as running them for free. In both cases, our completion rate was very low - our team has been in education for many years and this is a problem many online educators are having. People sign up for courses but lose interest the moment the work starts getting serious. We needed a way to motivate people to reach the end and the commitment bond was our solution. When we implemented this model, our completion rates shot up. Would you believe they are now 10 times higher than the average completion rate of other online education platforms? We are not trying to scam people by making it impossible to reach the end either. All you have to do is attempt the tasks - the course is not pass/fail. That means no blank submissions and no plagiarism. Incorrect answers and attempts are fine! We understand that's part of the process!"+" "+
         
         "If it's too hard, or not beneficial to you, we have a 7-day change of mind period (starting the day that the program starts) where we give you your money back no questions asked. Hopefully, this helps to alleviate some of your concerns and explains how and why the model came about.",
     }
@@ -123,11 +123,11 @@ const newQuestionArray = [
       question:
         "Q. Can I get the deadline extended?",
       answer:
-        "Unfortunately not."+
+        "Unfortunately not."+" "+
 
-        "If you miss the deadline, you will not be eligible for completion of the course."+
+        "If you miss the deadline, you will not be eligible for completion of the course."+" "+
         
-        "You will retain access to the content however you will not receive a certificate of completion at the end of the course."+
+        "You will retain access to the content however you will not receive a certificate of completion at the end of the course."+" "+
         
         "The only acceptable reason to drop out and get a full refund is a medical reason (yourself or a close family member that you need to attend to). We do ask for some sort of proof to provide a refund for this reason.",
     },
@@ -135,11 +135,11 @@ const newQuestionArray = [
       question:
         "Q.Are there specific times I need to be present?",
       answer:
-        "Nope!"+
+        "Nope!"+" "+
 
-        "Everything is done at your own pace besides submission deadlines as a commitment."+
+        "Everything is done at your own pace besides submission deadlines as a commitment."+" "+
         
-        "There are 2 deadlines at the end of the program that must be met in order to complete the program."+
+        "There are 2 deadlines at the end of the program that must be met in order to complete the program."+" "+
         
         "We do not offer extensions on these deadlines.",
     },
@@ -147,7 +147,7 @@ const newQuestionArray = [
       question:
         "Q. What if I have an unavoidable circumstance and I can't make a submission or need to drop out?",
       answer:
-        "If you are unhappy with the program, you can receive a refund within the first 7 days of the program."+
+        "If you are unhappy with the program, you can receive a refund within the first 7 days of the program."+" "+
 
         "After that, the only acceptable reason to drop out and get a full refund is a medical reason (yourself or a close family member that you need to attend to). We do ask for some sort of proof to provide a refund for this reason",
     },
@@ -157,9 +157,9 @@ const newQuestionArray = [
       question:
         "Q. Am I eligible for a refund?",
       answer:
-        "In order to have your commitment bond refunded, you must attempt all tasks before the first deadline of the program."+
+        "In order to have your commitment bond refunded, you must attempt all tasks before the first deadline of the program."+" "+
 
-        "Users who are unable to demonstrate a sincere attempt to engage with the work or are found plagiarising submissions will not be eligible for a refund."+
+        "Users who are unable to demonstrate a sincere attempt to engage with the work or are found plagiarising submissions will not be eligible for a refund."+" "+
         
         "In some cases, you may be ineligible for a refund, and will instead receive a premium package, at no extra cost, upon your completion of the program.",
     },
@@ -183,8 +183,8 @@ let questionArray = [
     question:
       "Q. How does Trainity make money?",
     answer:
-      "Trainity makes money in several ways:"+
-      "-> Commitment Bonds"+
+      "Trainity makes money in several ways:"+" "+
+      "-> Commitment Bonds"+" "+
       
       "-> Enterprise/Business recruitment fees",
   }
