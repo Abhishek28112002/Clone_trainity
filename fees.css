@@ -4563,6 +4563,10 @@
      -ms-flex: 1;
      flex: 1;
    }
+
+   .track-button-wrapper{
+    display: none;
+   }
    
    .dropdown-icon {
      margin-top: auto;
@@ -7963,6 +7967,16 @@
    @media screen and (max-width: 991px) {
      .hide-tablet {
        display: none;
+     }
+
+     #sign-up{
+      padding: 0.75rem 1.5rem;
+     }
+
+     .track-button-wrapper{
+      display: block;
+      padding-bottom: 3rem;
+      margin-top:2rem;
      }
    
      .max-width-xlarge.episode {
