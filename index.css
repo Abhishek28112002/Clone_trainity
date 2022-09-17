@@ -23,9 +23,9 @@
      grid-row-gap: 16px;
      grid-column-gap: 16px;
    }
-   html{
+   /* html{
     scroll-behavior: smooth;
-  }
+  } */
   *{
     transition: all .3s;
   }
@@ -3969,6 +3969,10 @@
      -ms-flex: 1;
      flex: 1;
    }
+
+   .track-button-wrapper{
+    display: none;
+   }
    
    .dropdown-icon {
      margin-top: auto;
@@ -7435,6 +7439,18 @@
      .hide-tablet {
        display: none;
      }
+
+     #sign-up{
+      padding: 0.75rem 1.5rem;
+     }
+
+     .track-button-wrapper{
+      display: block;
+      padding-bottom: 3rem;
+      margin-top:2rem;
+     }
+
+     
    
      .max-width-xlarge.episode {
        max-width: none;
