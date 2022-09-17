@@ -3,39 +3,55 @@ const newQuestionArray = [
   [
     {
       question:
-        "Q. Do I need to have a laptop or desktop to do the specialization or can I do it on mobile too?",
+        "Q. I have no experience in the career field. Can I still apply?",
       answer:
-        "You can watch the videos and take quizzes & tests on any device including mobile. However, for assignments and projects, use of a desktop or laptop will be needed and hence it is advised that you do this full-stack development course on a laptop or desktop.",
-    },
-  ],
-  [
-    {
-      question: " Q. I'm not able to make payment. What should you do now?",
-      answer:
-        "You could try making the payment from a different card or account (of a friend or family). Otherwise, you can follow the instructions on how to make an offline payment here.",
+        "Absolutely! Our experiences are made for newbies in the field. All you do need to take part is an interest in the field and access to the internet!"+
+
+        "We recommend checking each program guide to see what the exact program requirements are."+
+        
+        "We have a Free Trial facility that allows you to test out the program and complete 2 projects.",
     },
     {
-      question:
-        " Q. What are the different options available to pay the program fee?",
+      question: " Q. What’s the time commitment required each week?",
       answer:
-        "You can pay the specialization fee online using any of the following payment methods - debit card, credit card, netbanking, UPI, and wallets. You will receive the link to make the payment once your application is successful.",
-    },
-    {
-      question: "Q. My payment got deducted twice. What should I do now?",
-      answer:
-        "Just let us know your registered email id along with the screenshot of the payment receipt or transaction history. You can submit your request using the using the Need further assistance? section. Once verified, the additional amount you paid will be refunded.",
+        "The time commitment is expected to be around 5 - 10 hrs per week (depending on which program you choose and your prior level of experience). The experience is virtual and mostly asynchronous (meaning you can work according to your schedule) so you can be flexible on how and when you choose to do the work."+
+
+        "However, the deadlines are fixed and must be met to receive a certificate.",
     },
     {
       question:
-        "Q. I can not pay the entire fee in one go and would like to pay it in installments. What should I do?",
+        " Q. Is this an internship?",
       answer:
-        "Depending on your payment method, you can opt for no cost EMI where a certain amount will be deducted from your account every month over a period of EMI duration that you choose. Please note that the no-cost EMI is available only select payment methods that you can see here.",
+        "No, this is not an internship. You will not be working for any of the mentors, the company of the mentor, or Trainity. This is an educational experience designed to give you insight into what it's like to be in that role and help you build up a portfolio for your first job!",
+    },
+    {
+      question: "Q. How do I sign up for an experience?",
+      answer:
+        "The first step is to create an account"+ 
+
+       "Creating an account with us is completely free."+
+        
+       "When you have an account, log in and select the experience you are interested in."+
+        
+        "You will be required to pay a commitment bond in order to sign up for an experience, and if you are able to finish the experience by the assigned deadline, this bond will be refunded to you.",
     },
     {
       question:
-        "Q. The payment shows failed but money got deducted? What should I do now?",
+        "Q. Can I put this on my CV/Resume/LinkedIn?",
       answer:
-        "The amount deducted will come back to your account within 7-10 working days. This is the normal duration your bank will take to credit the amount back into your account.",
+        "Absolutely! After you complete an experience, you can add the experience to your CV, Resume, or LinkedIn."+
+
+        "However, we kindly ask you to  <Strong>not</Strong> list yourself as an employee at Trainity or any of our Mentor companies."+
+        
+        "For the moment, Trainity is not recognized as industrial work experience. We are in the process of getting these experiences approved and recognized and we will email you when they are."+
+        
+        "For this reason, we recommend including the completion of the program in the 'Extracurricular Activities' or 'Projects' section of your resume in a similar format to below.",
+    },
+    {
+      question:
+        "Q. Who is running the experience? ",
+      answer:
+        "The experience is run by the Trainity Team and led by a team of industry mentors who help us create the content and curriculum.",
     },
     {
       question:
@@ -45,178 +61,144 @@ const newQuestionArray = [
     },
     {
       question:
-        "Q. The payment was successful but it still shows 'Make Payment' on my dashboard? What should I do?",
+        "Q. Will I receive a job at the end of the program?",
       answer:
-        "At times, there may be a slight delay in your payment reflecting on your Internshala Trainings dashboard. However, if your payment is not reflecting even after 30 minutes, please let us know your registered email id along with the screenshot of the payment receipt or transaction history. You can submit your request using the using the Need further assistance? section. Once verified, we will update your payment status from the backend.",
-    },
-    {
-      question:
-        "Q. Can I stop or cancel the EMIs later if I decide not to continue with the specialization?",
-      answer:
-        "No, you can not cancel or stop the EMIs at a later date since your bank would have already paid the entire program fee on your behalf to Internshala",
-    },
-    {
-      question:
-        "Q. I faced a problem while making the payment, what should I do?",
-      answer:
-        "Please write to us on jos@internshala.com with details and we would be happy to help.",
-    },
-    {
-      question: "Q. Can I get a refund from the program?",
-      answer:
-        "Once the user has made the payment and accessed the training content, no refund would be permitted if the user does not graduate from the program. For the process for a student to claim a refund under the internship guarantee and stipend guarantee, please refer to Guaranteed Internship Program in FAQ.",
+        "Trainity is primarily an education platform and does not guarantee anyone employment at the end of the program."+
+
+        "However, we do have a network of recruiters who do occasionally look at user work submissions and hire candidates with exceptional work. These recruiters operate according to their own employment needs and schedules outside of Trainity's influence and Trainity will act as a facilitator for these opportunities.",
     },
   ],
   [
     {
       question:
-        "Q. Once my application is accepted, when will the program start?",
+        "Q. Are your programs free?",
       answer:
-        "At the time of making the payment, you will have the option to choose your preferred batch start date.",
+        "They can be!"+
+
+        "Trainity requires a **commitment bond** to be paid prior to Entering a course. This means that you pay a commitment bond equivalent to ₹7499, and if you attempt all tasks in the experience before the assigned deadline, you will get a full refund."+
+        
+        "If you cannot afford the commitment bond, we do offer financial aid to users that meet certain criteria.",
     },
     {
       question:
-        "Q. My application has been accepted but I would like to start the program at a later date, can I?",
+        "Q. How much does the program cost?",
       answer:
-        "Yes, you can. Just choose a suitable later date batch while making the payment. If a suitable date is not available, please write to us at jos@internshala.com so that we can help you with it.",
+        "The program **can be free** if you finish the program."+
+
+        "Trainity requires a **commitment bond** to be paid prior to Entering a course. This means that you pay a commitment bond equivalent to ₹7499, and if you attempt all tasks in the experience before the assigned deadline, you will get a full refund."+
+        
+        "Depending on your financial institution or location, you may have the option to pay in your local currency, some of which may incur transaction fees or exchange rates. These are not claimed by Trainity and may not be included in your refund."+
+        
+        "If you cannot afford the commitment bond, we do offer financial aid to users that meet certain criteria.",
+    },
+    {
+      question: "Q.  What happens if I don't finish a program?",
+      answer:
+        "If you are unable to complete the course by the scheduled deadline(s), we will forfeit your commitment bond, and you will not receive a certificate of completion."+
+
+        "In exchange you will be given permanent access to the content, so that you can continue learning in your own time - so effectively it will be just like buying an online course."+
+        
+        "However, please note that support and submissions will be restricted after the program ends, and a certificate of completion will not be issued if you finish your work after the deadline.",
     },
     {
       question:
-        "Q. How will the courses in the specialization be taught? What will be the timing of the online classes?",
+        "Q. How difficult is it to pass the course?",
       answer:
-        "The specialization consists of 2 video-based courses that you would complete one after another. The videos are pre-recorded so you can watch them any time of the day as convenient to you. The courses also consist of exercises, quizzes, tests, and projects that you will undergo as you learn.",
+        "We want to give you the best chance of getting your money back. The course is not pass/fail. If you attempt every task (that means no blank submissions and no copying other people's work!) and get your submissions in on time, you will get your money back. It is up to you to make the most of the experience and submit the best work you can.",
     },
     {
       question:
-        "Q. What is the duration of the specialization? How many hours a day do I need to spend on the program to complete it in the given duration?",
+        "Q. Why use a commitment bond? Why not sell the course, or make it free?",
       answer:
-        "You need to complete the full-stack development specialization training within 6 months from your chosen batch start date. If you spend ~2 hours every day, you should be able to complete the program comfortably in 6 months including all the projects, tests, vivas etc.",
+        "Good question!"+
+
+        "Our biggest goal is to educate."+
+        
+        "When we started, we tried selling our courses outright, as well as running them for free. In both cases, our completion rate was very low - our team has been in education for many years and this is a problem many online educators are having. People sign up for courses but lose interest the moment the work starts getting serious. We needed a way to motivate people to reach the end and the commitment bond was our solution. When we implemented this model, our completion rates shot up. Would you believe they are now 10 times higher than the average completion rate of other online education platforms? We are not trying to scam people by making it impossible to reach the end either. All you have to do is attempt the tasks - the course is not pass/fail. That means no blank submissions and no plagiarism. Incorrect answers and attempts are fine! We understand that's part of the process!"+
+        
+        "If it's too hard, or not beneficial to you, we have a 7-day change of mind period (starting the day that the program starts) where we give you your money back no questions asked. Hopefully, this helps to alleviate some of your concerns and explains how and why the model came about.",
+    }
+    ],[
+    {
+      question:
+        "Q. Can I get the deadline extended?",
+      answer:
+        "Unfortunately not."+
+
+        "If you miss the deadline, you will not be eligible for completion of the course."+
+        
+        "You will retain access to the content however you will not receive a certificate of completion at the end of the course."+
+        
+        "The only acceptable reason to drop out and get a full refund is a medical reason (yourself or a close family member that you need to attend to). We do ask for some sort of proof to provide a refund for this reason.",
     },
     {
       question:
-        "Q. What if I am not able to complete the entire specialization in the given duration? Will I get an extension?",
+        "Q.Are there specific times I need to be present?",
       answer:
-        "If you are not able to complete the specialization in 3 months due to any unforeseen reasons, you will be able to get an extension of 2 weeks on paying Rs. 4999 or an extension of 1 month on paying Rs. 7999.",
+        "Nope!"+
+
+        "Everything is done at your own pace besides submission deadlines as a commitment."+
+        
+        "There are 2 deadlines at the end of the program that must be met in order to complete the program."+
+        
+        "We do not offer extensions on these deadlines.",
+    },
+    {
+      question:
+        "Q. What if I have an unavoidable circumstance and I can't make a submission or need to drop out?",
+      answer:
+        "If you are unhappy with the program, you can receive a refund within the first 7 days of the program."+
+
+        "After that, the only acceptable reason to drop out and get a full refund is a medical reason (yourself or a close family member that you need to attend to). We do ask for some sort of proof to provide a refund for this reason",
     },
   ],
   [
     {
       question:
-        "Q. What certificate will I receive from Internshala upon completing the specialization?",
+        "Q. Am I eligible for a refund?",
       answer:
-        "Upon successful completion of the specialization, you will receive a Full-Stack Development Specialization certificate from Internshala Trainings.",
+        "In order to have your commitment bond refunded, you must attempt all tasks before the first deadline of the program."+
+
+        "Users who are unable to demonstrate a sincere attempt to engage with the work or are found plagiarising submissions will not be eligible for a refund."+
+        
+        "In some cases, you may be ineligible for a refund, and will instead receive a premium package, at no extra cost, upon your completion of the program.",
     },
-    {
-      question:
-        "Q. What is the criteria for one to receive the specialization certificate upon completion?",
-      answer:
-        "The necessary requirements to be eligible for the specialization certificate are as follows -1. Min. 75% aggregate marks 2. Submission of the mandatory projects 3. Attending the viva and career planning session",
-    },
-  ],
-  [
-    {
-      question:
-        "Q. Who will be the mentor for my career planning session and how would this session help me in my career?",
-      answer:
-        "The Career Planning Session will take place along with the viva and your mentor for these sessions would be an expert with 5+ years of experience in the industry. This session will be an opportunity for you to discuss your career goals and get personalised feedback and guidance from the mentor.",
-    },
-    {
-      question:
-        "Q. What kind of internship can I expect upon completion of the program and where?",
-      answer:
-        "For graduating specialization students, we will curate Full-Stack Development internships with stipends. These internships come from the pool of recruiters who use Internshala for hiring and can be anywhere in India (including work from home) and you can apply to them as per your choice.",
-    },
-    {
-      question: "Q. What is the internship guarantee?",
-      answer:
-        "Internshala guarantees that every eligible specialization student will be able to secure an internship (or a full-time employment) within 12 months from the start of the specialization program (Internship Guarantee Period); failing which Internshala will refund the specialization fee paid by the student.",
-    },
-    {
-      question: "Q. What internship will be considered towards this guarantee?",
-      answer:
-        "Any internship or full-time employment that a student gets, in a profile directly related to the specialization program or otherwise, through their own efforts, via Internshala, or any other medium, will be considered.",
-    },
-    {
-      question:
-        "Q. What is the process for a student to claim a refund under the internship guarantee?",
-      answer:
-        "If you satisfy the eligibility criteria and still fail to get any internship (or full time employment) with-in Internship Guarantee Period, please write to jos@internshala.com upon completion of the Internship Guarantee Period. We will let you know of the documents required to process your claim.",
-    },
-    {
-      question:
-        "Q. What is the process for a student to claim a refund under the stipend guarantee?",
-      answer:
-        "If you satisfy the eligibility criteria and get an internship whose stipend/salary does not match the guaranteed stipend, please write to us on jos@internshala.com with details and documents (like offer letter or appointment letter) upon completion of your internship/full time employment. We will let you know of the remaining documents required to process your claim.",
-    },
-    {
-      question: "Q. How would the internship placement process work?",
-      answer:
-        "After graduating from the specialization, on regular intervals, Internshala will share with you relevant full-stack development internships that you can apply to as per your choice. As a specialization student, your application will be highlighted to the recruiters. Companies will shortlist and assess you as per their respective policies.",
-    },
-    {
-      question: "Q. What are placement preparation sessions?",
-      answer:
-        "Placement preparation sessions are 1:1 sessions for specialization students so as to prepare them for interviews. These include sessions on cover letter writing, resume writing, LinkedIn profile building, and mock interviews.These are mandatory sessions and in case the user isn't attending any session, they will be debarred from the guaranteed internship program. The user will still be able to access the learning content.",
-    },
-  ],
+    
+  ]
 ];
 let questionArray = [
   {
-    question: "Q. Who is eligible to apply for the specialization?",
+    question: "Q. What is Trainity?",
     answer:
-      "The specialization program is meant for pre-final and final year students, recent graduates, and young professionals who wish to build a career in Full Stack Development. You should also be authorized and available to work in India upon completion of the program if you wish to avail of the internship guarantee benefits.",
+      "Trainity is an experience platform dedicated to helping everyone discover and reskill into their next internship/job. Our programs are designed to teach you the fundamentals of a role by simulating the tasks would experience in this profession. By doing these programs you learn and build the experience needed to land that internship/job in Data Analytics.",
   },
 
   {
     question:
-      "Q. I am in the early years of college and will NOT be graduating in the next 12 months, can I still apply?",
+      "Q. How do you collect my data? What do you do with it?",
     answer:
-      "Yes, if you have decided to make a career in full-stack development and are ready to put in the required time and effort to complete the program, you can still apply and we will evaluate your application based on its quality. You would be able to apply to the short-term or work-from-home internships that are published on Internshala.",
+      "We treat the collection and storage of your data very seriously. We will collect some data on you to help us better customize our virtual experiences for you. We also have a recruitment network that occasionally comes to us to recruit candidates based on samples of work generated during the programs. All work completed during the program is available to be viewed by our recruitment network. Please note that this does not include any personal information, and our programs will not require any personal information to complete. If a recruiter is interested in your work, Trainity will contact you to opt-in for an introduction. We encourage you to read our privacy policy and our terms of use.",
   },
   {
     question:
-      "Q. I have more than 3 years of work experience in a different field and now I want to switch to Full Stack Development, can I apply?",
+      "Q. How does Trainity make money?",
     answer:
-      "Yes, you can. However, please note that the placement opportunities that we would be curating for the students of the specializations would be those of internships and the same will be made available to you too. Different companies may factor in your prior work experience in their hiring decisions differently and it will be at the sole discretion of the companies.",
-  },
-  {
-    question:
-      "Q. I have more than 3 years of work experience in a different field and now I want to switch to Full Stack Development, can I apply?",
-    answer:
-      "Yes, you can. However, please note that the placement opportunities that we would be curating for the students of the specializations would be those of internships and the same will be made available to you too. Different companies may factor in your prior work experience in their hiring decisions differently and it will be at the sole discretion of the companies.",
-  },
-  {
-    question: "Q. What questions will the application process consist of?",
-    answer:
-      "The application form would consist of questions on your education, your motivation to build a career in full-stack development, and questions to test your communication skills.",
-  },
-  {
-    question: "Q. On what parameters would my application be evaluated?",
-    answer:
-      "Your application would be evaluated on the basis of your written communication skills in this full-stack development specialization course.",
-  },
-  {
-    question:
-      "Q. My application was rejected, can I still pay the fee and join the program?",
-    answer: "No, you can not.",
-  },
-  {
-    question: "Q. My application was rejected, can I re-apply?",
-    answer:
-      "You can. However, it is recommended that you speak to us first to understand shortcomings in your previous application before deciding to re-apply.",
-  },
+      "Trainity makes money in several ways:"+
+      "-> Commitment Bonds"+
+      
+      "-> Enterprise/Business recruitment fees",
+  }
 ];
 
 
 
 
 let sectionArray = [
-  { id: 1, title: "Eligibility & Application" },
-  { id: 2, title: "Program prerequisites" },
-  { id: 3, title: "Payment" },
-  { id: 4, title: "Start date & duration" },
-  { id: 5, title: "Certifications" },
-  { id: 6, title: "Guaranteed Internship Program" },
+  { id: 1, title: "More About Trainity" },
+  { id: 2, title: "Our Experiences" },
+  { id: 3, title: "Commitment Bond" },
+  { id: 4, title: "Deadline" },
+  { id: 5, title: "Program Support" },
 ];
 
 const sectionContainer = document.getElementById("sections");
@@ -330,27 +312,27 @@ function makeActive(className, sectionIndex) {
     ////// section wise if else condtn to display question in that perticular page
     if (
       document.getElementsByClassName(`section-elem-${sectionIndex}`)[0]
-        .innerText === "Eligibility & Application"
+        .innerText === "More About Trainity"
     ) {
       changeDisplayedQuestions(questionArray);
     } else if (
       document.getElementsByClassName(`section-elem-${sectionIndex}`)[0]
-        .innerText === "Start date & duration"
+        .innerText === " Deadline"
     ) {
       changeDisplayedQuestions(newQuestionArray[2]);
     } else if (
       document.getElementsByClassName(`section-elem-${sectionIndex}`)[0]
-        .innerText === "Program prerequisites"
+        .innerText === "Our Experiences"
     ) {
       changeDisplayedQuestions(newQuestionArray[0]);
     } else if (
       document.getElementsByClassName(`section-elem-${sectionIndex}`)[0]
-        .innerText === "Payment"
+        .innerText === "Commitment Bond"
     ) {
       changeDisplayedQuestions(newQuestionArray[1]);
     } else if (
       document.getElementsByClassName(`section-elem-${sectionIndex}`)[0]
-        .innerText === "Certifications"
+        .innerText === "Program Support"
     ) {
       changeDisplayedQuestions(newQuestionArray[3]);
     } else {
