@@ -2,7 +2,7 @@ body {
     background-color: #0d2129;
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
-    min-height: 100vh;
+    max-height: 100vh;
     margin: 0;
   
     display: grid;
@@ -12,7 +12,7 @@ body {
     text-align: center;
   }
   .header {
-    padding: 5vh 0 4vh;
+    padding: 2vh 0 4vh;
     font-size: 4.5em;
     letter-spacing: 0.01em;
     color: #56b788;
@@ -115,6 +115,9 @@ body {
   }
   
   @media only screen and (max-width: 768px) {
+    body{
+      max-height: 100vh;
+    }
     .header {
       padding: 4vh 0 4vh;
       font-size: 2.5em;
@@ -122,13 +125,13 @@ body {
     }
     .header-sub {
       padding: 0 5vw;
-      padding-bottom: 3vh;
+      padding-bottom: 2vh;
     }
     .sub-grid {
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-rows: repeat(2, 1fr);
-      padding: 0 2vw;
+      padding: 0 2vw 2vh 2vw;
+  
     }
     .box {
       width: -webkit-fill-available;
@@ -138,10 +141,10 @@ body {
       width: -webkit-fill-available;
       display: grid;
       border: solid #eaeaea;
-      padding: 6vh 3vw;
+      padding: 2vh 3vw;
       margin: 0vh 3vh;
       border-radius: 8px;
-      margin-top: 5vh;
+      margin-top: 3vh;
       height: fit-content;
       /* box-shadow: 0px 3px 6px #00000020; */
     }
