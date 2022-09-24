@@ -1,7 +1,7 @@
 $(window).on('load', function(){
     initSmoothScrolling('.testimonial-components','smoothscroll');
     logoSmoothScrolling('.logo-components', 'logoScroll');
-    $("a.register-btn").click(function(event) {
+    $("a.program-btn").click(function(event) {
         event.preventDefault();
         $("html, body").animate({
             scrollTop: $($(this).attr("href")).offset().top
